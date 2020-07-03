@@ -1,0 +1,252 @@
+ @import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
+:root {
+  --Sniglet-font: "Sniglet", cursive;
+  --Rubik: "Rubik", cursive;
+  --Patua: "Patua One", cursive;
+  --Lobster: "lobster", cursive;
+  --light-black: #2e2c2caf;
+  --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
+  --light-gray: rgba(255, 255, 255, 0.877);
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.nav-item {
+   padding: 3px 0.9em;
+}
+
+.nav-item a {
+    font-size: 1.0rem;
+    font-family: var(--Sniglet-font);
+}
+.dropdown-content{
+    margin-top: 3px;
+}
+ .image-aboutus-banner {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("http://ayeezh.com/wp-content/uploads/2019/01/About-Us-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    padding-top: 110px;
+    padding-bottom:110px;
+ }
+ 
+  .image-aboutus-sm-banner {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("http://ayeezh.com/wp-content/uploads/2019/01/About-Us-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom:30px;
+ }
+.lg-text {
+    font-size:52px;
+    font-weight: 600;
+    text-transform: none;
+    color:#fff;
+}
+.image-aboutus-para {
+    color:#fff;
+}
+
+/************************* */
+.plan {
+    background: #f9f9f9;
+    padding: 50px 30px;
+    margin-bottom: 30px;
+}
+.plan-header h4 {
+    padding-bottom: 8px;
+    text-transform: uppercase;
+    color: #333;
+    font-weight: 600;
+}
+.plan-header {
+    font-weight: 700;
+}
+.plan-header span {
+        color: #fe4819;
+        font-size: 40px;
+}
+.plan li {
+    padding-bottom: 15px;
+}
+.plan ul {
+    padding-left: 0;
+    margin-bottom: 15px;
+    list-style: none;
+}
+.plan-header p {
+    padding-header: 12px;
+    padding-bottom: 15px;
+}
+
+.col-md-3,.col-md-4 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.bg-pink {
+    background:#f0f0f0;
+}
+.bg-blue {
+    background:#d6d6d6;
+    color:#000;
+}
+ .padding35 {
+    padding: 35px 0 35px;
+}
+
+
+/* Feature-CSS */
+
+.icon {
+    color : #fff;
+    padding:15px;
+    background:#323232 ;
+    font-size:50px;
+    border-radius:90px;
+    border:10px solid #323232 ;
+    
+}
+.feature-box {
+    text-align: center;
+    padding: 20px;
+    transition: .5s;
+    margin-bottom: 30px;
+    border: 1px solid #e8e8e8;
+}
+.feature-box:hover {
+   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.feature-box h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 25px 0 15px;
+}
+
+/* Site Heading */
+.site-heading h3{
+    font-size : 40px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.border {
+    background: #e8e8e8 ;
+    height: 1px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 45px;
+    float:left;
+}
+
+/* padding-margin */
+.paddingTB60 {
+    padding-top:60px;
+    padding-bottom:60px;
+}
+
+
+/* Carousel banner */
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color:#555;
+}
+.carousel img {
+  position: absolute;
+  top: 0;
+  left: 0;
+ 
+}
+.carousel-caption {
+    margin-bottom:30px;
+}
+.carousel-caption h1 {
+    margin-bottom:15px;
+    font-size:42px;
+    font-weight:700px;
+}
+.carousel-caption p {
+    margin-bottom:20px;
+    font-size:16px;
+    font-weight:400px;
+}
+
+
+
+/*end heading */
+.section1{
+ overflow: hidden; 
+}
+.sec1{
+    border-radius: 10px;
+    margin-top: -8px;
+    
+}
+.section1 img{
+    width: 90%;
+    border-radius: 10px;
+    transition: 0.7s ease-in-out;
+    opacity: 0.8;
+}
+.section1 img:hover{
+    opacity: 1;
+}
+
+
+.section1 h1{
+    padding: 8px 0px;;
+    
+     font-family: var(--Sniglet);
+}
+.section1 p{
+    padding: 15px;
+}
+
+
+
+/*section 2 */
+.section2{
+    background: #86848412;
+    padding: 12vmin 0px;
+}
+
+.section2 h1{
+    font-family: var(--Sniglet);
+}
+.section2 h1 b{
+    font-family: cursive;
+}
+.section2 p{
+    padding: 15px 0px;
+}
+
+
+/* section3*/
+.section3s{
+    background: white;
+    padding: 12vmin 0px;
+}
+@media (max-width: 768px) { 
+     .section1 ,.section2, .section3s{
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    }
+
+   .section1 h1, .section2 h1, .section3s h1{
+         font-size: 24px;
+        line-height: 35px;
+    }
+    
+}
+
